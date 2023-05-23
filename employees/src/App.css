@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.file-uploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 5px 8px;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.common-projects-table {
+  margin: 20px;
+}
+
+.common-projects-table h2 {
+  font-size: 24px;
+}
+
+.common-projects-table table {
+  margin: auto;
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.common-projects-table th,
+.common-projects-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.common-projects-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.common-projects-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
