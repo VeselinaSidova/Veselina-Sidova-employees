@@ -1,6 +1,6 @@
 # Employee Work History
 
-Employee Work History is an React.JS application that helps identify the pair of employees who have worked together on common projects for the longest period of time. It takes input data from a CSV file and displays the common projects and the duration of the longest working pair.
+Employee Work History is an React.JS application that helps identify the pair of employees who have worked together on common projects for the longest period of time. It takes input data from a CSV file and displays the common projects of the longest working pair.
 
 
 ## Features
@@ -14,11 +14,11 @@ Employee Work History is an React.JS application that helps identify the pair of
   1. Clone the repository to your local machine.
   2. Install the dependencies by running the following command:
 
-    npm install
+          npm install
 
  3. Start the application by running the following command:
-
-    npm start
+    
+          npm start
 
   4. Access the application in your browser at http://localhost:3000.
   5. Click on the "Choose File" button to select a CSV file with employee work history data.
@@ -30,8 +30,8 @@ The CSV file should have the following columns: EmpID, ProjectID, DateFrom, Date
 
    * EmpID: Employee ID.
    * ProjectID: Project ID.
-   * DateFrom: Start date of the project (format: DD-MM-YYYY).
-   * DateTo: End date of the project. Use NULL if the project is ongoing or the end date is not known (format: DD-MM-YYYY).
+   * DateFrom: Start date of the project (format: YYYY-MM-DD).
+   * DateTo: End date of the project. Use NULL if the project is ongoing or the end date is not known (format: YYYY-MM-DD).
 
 ## Dependencies
 
